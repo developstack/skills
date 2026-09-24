@@ -6,6 +6,7 @@
   "plugins": [
     {
       "name": "anthropic-skills",
+      "display_name": "Anthropic 官方技能",
       "description": "",
       "skills": [
         "./skills/academy-guide",
@@ -32,6 +33,7 @@
     },
     {
       "name": "emilkowalski-skills",
+      "display_name": "Emil Kowalski 动效与设计",
       "description": "",
       "skills": [
         "./skills/animate-expo",
