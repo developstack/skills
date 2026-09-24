@@ -1,0 +1,165 @@
+{
+  "version": "2026-09-24",
+  "skills": {
+    "academy-guide": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/academy-guide",
+      "sha256": "4b2a6fe3db975b7eb0a36dd0b9b20b6167f48c17f8147089750addb6f30713df",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    "algorithmic-art": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/algorithmic-art",
+      "sha256": "83542963d5207a35970a3bc2a6918870c2dd345ef340b5bb89c1c56c48e69c1a",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    "brand-guidelines": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/brand-guidelines",
+      "sha256": "a1e22bb7c943401e94c7f01fd20bf6fe6e25b0fcc34bcd99a19fb94a909ff75e",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    "canvas-design": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/canvas-design",
+      "sha256": "c7e30903d724e97681bb2ae112f9e20ce3dbc35c91fb6a8ef94b818aa810086d",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    "claude-api": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/claude-api",
+      "sha256": "8bdc4c7c64071e5d78059d08e1abcf0c690fd390c7067458946f6842b627acdf",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    "discernment-nudge": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/discernment-nudge",
+      "sha256": "782a23e66026f476ca02259eb84b955cba91dfe7314086af0e94f6d5b39d7755",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    "doc-coauthoring": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/doc-coauthoring",
+      "sha256": "ae8730bbc064ce422b8438460511fa2b54c96e5e402bccc05a5b19839a566cd5",
+      "license": ""
+    },
+    "docx": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/docx",
+      "sha256": "ee1a7c5dfe5aa71d1ef7e1fd0c901e5c893b9679747a771ed5ab2d189561ab76",
+      "license": "Proprietary. LICENSE.txt has complete terms"
+    },
+    "frontend-design": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/frontend-design",
+      "sha256": "43566e512874f5c4771b2f5779628d6b4fc99bd1f1513a837097132a1cb8764e",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    "internal-comms": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/internal-comms",
+      "sha256": "2e36df0a8257937539842d0bc0f6dca9abe054517a1a2bdb84f1f32484cab253",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    "mcp-builder": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/mcp-builder",
+      "sha256": "888e05db9f17fc8b892b752264dd6fa2078d6b4da4ab884da0e6acf8221dc528",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    "pdf": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/pdf",
+      "sha256": "ddeae192fde6d42445d182da14a913e9e0052b455444156e5e55d7682176c8c6",
+      "license": "Proprietary. LICENSE.txt has complete terms"
+    },
+    "pptx": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/pptx",
+      "sha256": "b0a918283f82fff0a0d5f738e4216d016a78bf26d6e2daaa23f2e821ea0dbad0",
+      "license": "Proprietary. LICENSE.txt has complete terms"
+    },
+    "skill-creator": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/skill-creator",
+      "sha256": "7c05f3d318fff3d3b27b1ee133bfbdaa4888d9465fe2d6d2514d23b08f90c5ec",
+      "license": ""
+    },
+    "slack-gif-creator": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/slack-gif-creator",
+      "sha256": "51707d5e4956441ea92f89f6862c35fec12b2857d1051839d9cf77000b3f5180",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    "theme-factory": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/theme-factory",
+      "sha256": "b560b674a48569e084311cdb7cbf4106ee0c39c1f98940524a5b1caa1e1e2e8b",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    "web-artifacts-builder": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/web-artifacts-builder",
+      "sha256": "87666cef457df4d6fcd8d3dbce781fe43ec184198af9e095f419b448cd8ae491",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    "webapp-testing": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/webapp-testing",
+      "sha256": "19e53b1361b507f5e601e7e2b765878cbeb43ac656b4f996170982f86c1c82ff",
+      "license": "Complete terms in LICENSE.txt"
+    },
+    "xlsx": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "skills/xlsx",
+      "sha256": "70aacca1d0f6683ce3aa3e28d263d1cf0dbbbc8f37a075bc6132a9cfe90fd3cb",
+      "license": "Proprietary. LICENSE.txt has complete terms"
+    },
+    "template-skill": {
+      "source": "https://github.com/anthropics/skills",
+      "ref": "main",
+      "commit": "34040c9c568585f6929bedeaad110ad08f079624",
+      "path": "template",
+      "sha256": "acbd96e9536e12ba5da4d6c33bc0f5187c0cdd1d7b3172ce185d26afcd03406d",
+      "license": ""
+    }
+  }
+}

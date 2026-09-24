@@ -1,0 +1,34 @@
+{
+  "name": "developstack-skills",
+  "metadata": {
+    "version": "2026-09-24"
+  },
+  "plugins": [
+    {
+      "name": "anthropic-skills",
+      "description": "",
+      "skills": [
+        "./skills/academy-guide",
+        "./skills/algorithmic-art",
+        "./skills/brand-guidelines",
+        "./skills/canvas-design",
+        "./skills/claude-api",
+        "./skills/discernment-nudge",
+        "./skills/doc-coauthoring",
+        "./skills/docx",
+        "./skills/frontend-design",
+        "./skills/internal-comms",
+        "./skills/mcp-builder",
+        "./skills/pdf",
+        "./skills/pptx",
+        "./skills/skill-creator",
+        "./skills/slack-gif-creator",
+        "./skills/theme-factory",
+        "./skills/web-artifacts-builder",
+        "./skills/webapp-testing",
+        "./skills/xlsx",
+        "./skills/template-skill"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+name: sync-skills
+
+# 四种触发，对应四种场景：
+#   schedule            兜底：上游悄悄更新了也能跟上（零配置）
+#   push                本仓 sources.yaml / 脚本变更 → 立刻重新聚合
+#   repository_dispatch 平台控制台点「立即同步」→ 平台调 GitHub API 触发
+#   workflow_dispatch   人工排查时手动重跑
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "sources.yaml"
+      - "scripts/**"
+      - ".github/workflows/sync-skills.yml"
+  repository_dispatch:
+    types: [sync-skills]
+  workflow_dispatch:
+
+# 需要写回产物（skills/ dist/ 清单 LOCK）—— push 时用内置 token 即可。
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-skills
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: 确保 zip/unzip 可用（teamai 用 unzip 解我们的包）
+        run: |
+          if ! command -v zip >/dev/null; then
+            sudo apt-get update && sudo apt-get install -y zip
+          fi
+
+      - name: 安装依赖
+        run: npm install --omit=dev --no-audit --no-fund
+
+      - name: 聚合上游技能
+        run: node scripts/sync-skills.mjs
+
+      - name: 提交产物
+        run: |
+          git config user.name  "skills-bot"
+          git config user.email "skills-bot@users.noreply.github.com"
+          git add -A skills dist .claude-plugin LOCK.json
+          if git diff --cached --quiet; then
+            echo "没有变化，跳过提交"
+            exit 0
+          fi
+          git commit -m "chore(sync): 聚合上游技能 $(date -u +%Y-%m-%d)"
+          git push

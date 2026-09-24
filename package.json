@@ -1,0 +1,13 @@
+{
+  "name": "developstack-skills",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "description": "developstack 技能分发仓：聚合上游开源技能，产出 marketplace.json 与单技能 zip",
+  "scripts": {
+    "sync": "node scripts/sync-skills.mjs"
+  },
+  "dependencies": {
+    "yaml": "^2.6.0"
+  }
+}

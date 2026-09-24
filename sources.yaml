@@ -1,0 +1,15 @@
+# 上游技能仓清单 —— 本仓的唯一手工编辑点。
+#
+# 字段：
+#   repo      上游仓库（完整 URL）
+#   ref       分支 / 标签（默认 main）
+#   namespace 安装后的归属分组（= marketplace.json 的 plugins[].name）
+#   include   只收这些路径（glob，相对上游仓库根；**缺省 = 全收**）
+#             注意：`*` 不跨 `/`，要匹配任意层级用 `**`（如 "skills/**/SKILL.md"）
+#   exclude   排除这些路径（glob；优先于 include）
+#
+# 平台侧接法见 README「平台侧怎么接」。
+sources:
+  - repo: https://github.com/anthropics/skills
+    ref: main
+    namespace: anthropic-skills
