@@ -30,11 +30,14 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # 学习点：用 node24 运行时的 action 版本（v4 是 node20，GitHub 已弃用并会打警告）。
+      # actions/* 是 GitHub 官方维护，用主版本标签即可；第三方 action 建议钉到 commit SHA。
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: "20"
+          # 与 action 运行时对齐；Node 20 已 EOL。
+          node-version: "24"
 
       - name: 确保 zip/unzip 可用（teamai 用 unzip 解我们的包）
         run: |
