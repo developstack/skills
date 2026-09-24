@@ -5,3 +5,7 @@ sources:
     ref: "main"
     namespace: "anthropic-skills"
     name: "Anthropic 官方技能"
+  - repo: "https://github.com/emilkowalski/skills.git"
+    ref: "main"
+    namespace: "emilkowalski-skills"
+    name: "Emil Kowalski 动效与设计"
