@@ -4,6 +4,3 @@ sources:
   - repo: "https://github.com/anthropics/skills"
     ref: "main"
     namespace: "anthropic-skills"
-  - repo: "https://github.com/emilkowalski/skills"
-    ref: "main"
-    namespace: "emil-skills"
