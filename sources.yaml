@@ -1,15 +1,6 @@
-# 上游技能仓清单 —— 本仓的唯一手工编辑点。
-#
-# 字段：
-#   repo      上游仓库（完整 URL）
-#   ref       分支 / 标签（默认 main）
-#   namespace 安装后的归属分组（= marketplace.json 的 plugins[].name）
-#   include   只收这些路径（glob，相对上游仓库根；**缺省 = 全收**）
-#             注意：`*` 不跨 `/`，要匹配任意层级用 `**`（如 "skills/**/SKILL.md"）
-#   exclude   排除这些路径（glob；优先于 include）
-#
-# 平台侧接法见 README「平台侧怎么接」。
+# 本文件由平台生成（技能 → 上游源），手工改动会在下次同步时被覆盖。
+# 加/删上游源请走控制台；直接改本文件也可以，但要自己提交。
 sources:
-  - repo: https://github.com/anthropics/skills
-    ref: main
-    namespace: anthropic-skills
+  - repo: "https://github.com/emilkowalski/skills.git"
+    ref: "main"
+    namespace: "emilkowalski-skills"
