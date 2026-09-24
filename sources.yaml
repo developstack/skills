@@ -1,6 +1,4 @@
 # 本文件由平台生成（技能 → 上游源），手工改动会在下次同步时被覆盖。
 # 加/删上游源请走控制台；直接改本文件也可以，但要自己提交。
 sources:
-  - repo: "https://github.com/emilkowalski/skills.git"
-    ref: "main"
-    namespace: "emilkowalski-skills"
+  []
