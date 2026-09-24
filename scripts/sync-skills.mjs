@@ -186,11 +186,13 @@ async function syncSource(source) {
   const repo = String(source.repo ?? "").trim();
   const ref = String(source.ref ?? "main").trim();
   const namespace = String(source.namespace ?? "").trim() || ownerRepo(repo).repo;
+  // 展示名：给人看的（表格里的「上游来源」）。缺省回落 namespace。
+  const displayName = String(source.name ?? "").trim() || namespace;
   const include = toGlobs(source.include);
   const exclude = toGlobs(source.exclude);
 
   const commit = await resolveCommit(repo, ref);
-  console.log(`\n▶ ${repo}@${ref} → namespace=${namespace} (${commit.slice(0, 8)})`);
+  console.log(`\n▶ ${repo}@${ref} → ${displayName} [${namespace}] (${commit.slice(0, 8)})`);
 
   const repoDir = await downloadAndExtract(repo, ref, namespace);
   const licensePath = await findLicense(repoDir);
@@ -231,13 +233,17 @@ async function syncSource(source) {
     });
     console.log(`  ✓ ${slug}${frontmatter.name && normalizeSlug(frontmatter.name) !== slug ? ` (name=${frontmatter.name})` : ""}`);
   }
-  return { namespace, contributed };
+  return { namespace, displayName, contributed };
 }
 
 /** writeManifest 生成 .claude-plugin/marketplace.json（形状由平台解析器决定）。 */
 async function writeManifest(groups, version) {
   const plugins = groups.map((group) => ({
     name: group.namespace,
+    // display_name 是**我们加的扩展字段**（Claude Code 插件市场格式只规定 name/description）。
+    // 学习点：多出来的键对其它消费者是无害的（JSON 解析器会忽略未知字段），
+    // 而平台据此在表格里显示"上游来源"的人话名字。
+    display_name: group.displayName,
     description: group.description,
     skills: group.skills.map((slug) => `./skills/${slug}`),
   }));
@@ -262,7 +268,7 @@ async function main() {
   const taken = new Map();
 
   for (const source of sources) {
-    const { namespace, contributed } = await syncSource(source);
+    const { namespace, displayName, contributed } = await syncSource(source);
     const skills = [];
     for (const item of contributed) {
       const previous = taken.get(item.slug);
@@ -275,7 +281,7 @@ async function main() {
       skills.push(item.slug);
     }
     if (skills.length > 0) {
-      groups.push({ namespace, description: source.description ?? "", skills });
+      groups.push({ namespace, displayName, description: source.description ?? "", skills });
     }
   }
 
