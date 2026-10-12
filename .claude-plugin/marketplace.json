@@ -1,7 +1,7 @@
 {
   "name": "developstack-skills",
   "metadata": {
-    "version": "2026-10-11"
+    "version": "2026-10-12"
   },
   "plugins": [
     {
@@ -38,6 +38,7 @@
       "skills": [
         "./skills/animate-expo",
         "./skills/animate",
+        "./skills/animation-performance",
         "./skills/animation-vocabulary",
         "./skills/apple-design",
         "./skills/ask-sonner",
