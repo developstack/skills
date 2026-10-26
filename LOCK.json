@@ -1,12 +1,12 @@
 {
-  "version": "2026-10-25",
+  "version": "2026-10-26",
   "skills": {
     "academy-guide": {
       "source": "https://github.com/anthropics/skills",
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/academy-guide",
-      "sha256": "12968523ed4b1d24aa656ef28e1fc99547fe27e668a87f1916b3bedf18347883",
+      "sha256": "c26682e34ce6f08a0a6aa5087546725fc2d56b4e37922222415780a3e331d662",
       "license": "Complete terms in LICENSE.txt"
     },
     "algorithmic-art": {
@@ -14,7 +14,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/algorithmic-art",
-      "sha256": "0dbfa21d045179872b96d5580eb1b263800711d9b81d95f98e071a9ad225577e",
+      "sha256": "6e01755a7a0b0ba00af6d8a08c8d4335f48b28c2b7ce85075f93f2b837471fe3",
       "license": "Complete terms in LICENSE.txt"
     },
     "brand-guidelines": {
@@ -22,7 +22,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/brand-guidelines",
-      "sha256": "1d4c469d5fc5986e799730ab3bddceb1cc1373bfa49d761cceeec1f1f5946e5b",
+      "sha256": "580d1f6089cc0de6dbd945d57d071a68facfc69128b98b574d0fcc2a3833388d",
       "license": "Complete terms in LICENSE.txt"
     },
     "canvas-design": {
@@ -30,7 +30,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/canvas-design",
-      "sha256": "74d63137c47f31b191cb39b32059b2b73fe1f510cd90cd18376c6d047da9fed3",
+      "sha256": "aa45eb66f13d773eb1ca0d49825ad2092f2c359f955bb0f329d3ef7976b77373",
       "license": "Complete terms in LICENSE.txt"
     },
     "claude-api": {
@@ -38,7 +38,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/claude-api",
-      "sha256": "016040ef3c3f7c96799a8e9ebdcaef9c988a7ebd2f615b0305203a3f52f55eb5",
+      "sha256": "fc19aa2277b868586d4bcb52c409ab808279762a55737a6957da791077f64eda",
       "license": "Complete terms in LICENSE.txt"
     },
     "discernment-nudge": {
@@ -46,7 +46,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/discernment-nudge",
-      "sha256": "406a3f8fa446e28ab720b6a6f69f7740eddb1b5b02424c4509fa2867c306a298",
+      "sha256": "936d40024bf0aea7d46f8310e1b719ac89a9e5c198a956fc57222849a2d8e0c3",
       "license": "Complete terms in LICENSE.txt"
     },
     "doc-coauthoring": {
@@ -54,7 +54,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/doc-coauthoring",
-      "sha256": "5c4ed82f06b417301026c71ad7137390cb7639b4bb77a1429374ff8d871e9a4d",
+      "sha256": "81d424835a915359eb71fa028b81676a97c62684b532010d846738cdc08551cb",
       "license": ""
     },
     "docx": {
@@ -62,7 +62,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/docx",
-      "sha256": "fe492e1e3e03cf71b9d5c1e7096e210ea24c5653a23bc545c5b02049fbe7f664",
+      "sha256": "40d0f6b13c9b8d9262826b579f87be754324505bc75907e79c50b2afc4f954cb",
       "license": "Proprietary. LICENSE.txt has complete terms"
     },
     "frontend-design": {
@@ -70,7 +70,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/frontend-design",
-      "sha256": "c1884962bc972c4cc313bf534b296276acfa19ead3d045c832695650f8781277",
+      "sha256": "41e8cc17e7603a242b762fbe5203ed348bde479a487a747c51680678615b6a90",
       "license": "Complete terms in LICENSE.txt"
     },
     "internal-comms": {
@@ -78,7 +78,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/internal-comms",
-      "sha256": "ce10b7ebb6cdda1c303ffe0797ca1b1bfa174f78a992f118b481350016072715",
+      "sha256": "db179c284c548956cd6ff4d8d19402257e154ba53fc14dc94b1174a33c226a2a",
       "license": "Complete terms in LICENSE.txt"
     },
     "mcp-builder": {
@@ -86,7 +86,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/mcp-builder",
-      "sha256": "6dd6056455f25299840852977519fa75e5d15bd1b10a692088b621bcd68d61c8",
+      "sha256": "7634b8f03ef586fd61de97ef615c6370c936fc4fc2b82c3d47f6ed8b3659d7bd",
       "license": "Complete terms in LICENSE.txt"
     },
     "pdf": {
@@ -94,7 +94,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/pdf",
-      "sha256": "00aeb1ee76ebae08c94e13c5ac566e3d13aaed84fbe6ee5352583d0d276dd817",
+      "sha256": "cd382dc18e7b2b0af04a1ed376999ce2475fb8545279c7e8248f717f92d6665d",
       "license": "Proprietary. LICENSE.txt has complete terms"
     },
     "pptx": {
@@ -102,7 +102,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/pptx",
-      "sha256": "8f8028a39084d423e3d36d56c02a74d41b98f18f692eb88b2e7e9af5303161ce",
+      "sha256": "59bee1f92b833b704332c1a1ef8eacb5f3c3c52bc5fb8be4a037a4efaa1ee3dd",
       "license": "Proprietary. LICENSE.txt has complete terms"
     },
     "skill-creator": {
@@ -110,7 +110,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/skill-creator",
-      "sha256": "9684dae486fd8dcb860ca2f24a2a926e561ba88fd7b6ef16bb3e84a1566a9fdc",
+      "sha256": "b9558ca405924aea6024f04de2a278adcdb0227e81c95aaecbdfa12365ddc8fc",
       "license": ""
     },
     "slack-gif-creator": {
@@ -118,7 +118,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/slack-gif-creator",
-      "sha256": "1fef2a120ff903fe508d20b88a07823f43544fbfa3d9a09b6030aa0df166e6dc",
+      "sha256": "5cdc53f704f3f8f8e9a5ea42ce051c69048b3e17e945fef5d28297ecdb3f529f",
       "license": "Complete terms in LICENSE.txt"
     },
     "theme-factory": {
@@ -126,7 +126,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/theme-factory",
-      "sha256": "543eed10c25530a1158d799d1627ded905e3728aa66f26820d949d726a86120a",
+      "sha256": "505400dcda3dcb8ca625d947b00487468892ed1eb6b77fc66c99f301d84bd4d6",
       "license": "Complete terms in LICENSE.txt"
     },
     "web-artifacts-builder": {
@@ -134,7 +134,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/web-artifacts-builder",
-      "sha256": "c47c326f36904a3f68d7df5b1faaa60eaf63e6b7df515779d44d9a46c14dc3ae",
+      "sha256": "a2208eddc9a8f3608357d245b9135434d3d10e81dec29aa99b605563397a7dbb",
       "license": "Complete terms in LICENSE.txt"
     },
     "webapp-testing": {
@@ -142,7 +142,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/webapp-testing",
-      "sha256": "0bd8a5b4847000de1add50bf88c09a7038fd7c7f320a9ca07cf486b3fbf417bf",
+      "sha256": "4b3c2359e61a8542a9462aebfb90b1cb1716e859cea6c2e64eef6ce7026ca9b0",
       "license": "Complete terms in LICENSE.txt"
     },
     "xlsx": {
@@ -150,7 +150,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "skills/xlsx",
-      "sha256": "d326c352a1ab830588d929f7cc5485f437003c8c92f7a925bfc4417b04f298f1",
+      "sha256": "ceebd0557b13aacdb385d60270030fa25d6ef1f161e438d855e45246810d9721",
       "license": "Proprietary. LICENSE.txt has complete terms"
     },
     "template-skill": {
@@ -158,7 +158,7 @@
       "ref": "main",
       "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
       "path": "template",
-      "sha256": "376aaafdd9e7f33d1ab929dd8930017182ec392110984900823517c94062524c",
+      "sha256": "b86f773a81c7e43f48c878d0af6a6f18727ce4c3d79f49d2d560b76c146aa25b",
       "license": ""
     },
     "animate-expo": {
@@ -166,7 +166,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/animate-expo",
-      "sha256": "0be45357726adba90c03c3c2514c9b35e56f86ca07c72dfdf2fadad5924d3826",
+      "sha256": "096a475d2ec2dcdc335cd18524ad6cc0d81dbdaf2d2d3a0035e7074222cdbafb",
       "license": ""
     },
     "animate": {
@@ -174,7 +174,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/animate",
-      "sha256": "70f5724e630979b310215b3e218925d3d183d7487c6b4d2fe79599597c53ebba",
+      "sha256": "06eed32644498ceb4076a4baaa2817fffa20025e6ae9914401d253d5ced712b8",
       "license": ""
     },
     "animation-performance": {
@@ -182,7 +182,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/animation-performance",
-      "sha256": "bce594c9ffece7443d64b6d2eed81a6e7bacf504b61e41512a495d8440c52531",
+      "sha256": "c43960f878124c708a9f298e5200021d68c76bdef89d285552602460212ed5ad",
       "license": ""
     },
     "animation-vocabulary": {
@@ -190,7 +190,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/animation-vocabulary",
-      "sha256": "b8f3f8345a2405ad195448d8ca919a9aad04694d56fe2a38fdf781b26d988ec0",
+      "sha256": "ea63c7869b3b436e4be2e3c6a58839a6d2fc497781eea337768e89fdc919060f",
       "license": ""
     },
     "apple-design": {
@@ -198,7 +198,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/apple-design",
-      "sha256": "10c36e707f8aa68d604382b788d0035bcf6dbbfd691f0301bda033431303ed26",
+      "sha256": "063a7c59c60814b0782de3fabf1734139f11d7117cf4a5913ff3f9d935818401",
       "license": ""
     },
     "ask-sonner": {
@@ -206,7 +206,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/ask-sonner",
-      "sha256": "456f029c95a5d10049be3459910e23a18ec601853a7c7e1191a8186b099dfe32",
+      "sha256": "403bb19d3c650b6e444586cb7f270a4a7b20d5397bed239a9e4d5802272770ae",
       "license": ""
     },
     "break-ui": {
@@ -214,7 +214,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/break-ui",
-      "sha256": "8c7229c1be256c6666f3c95058c959ca163a7794ee52a25d011157e6f404bc8a",
+      "sha256": "2cffa921b8868df23a309ffc072f8c1c0b4de47ee17742be219322f833366c06",
       "license": ""
     },
     "emil-design-eng": {
@@ -222,7 +222,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/emil-design-eng",
-      "sha256": "7fcfb50aa0b79da792dc20088b83df1127a68bb4933e9380139fc8837488a098",
+      "sha256": "95c94f11fbfb2c9c8b689db4b298251363b7d049c02b3b92001fd0ea5225a76f",
       "license": ""
     },
     "find-animation-opportunities": {
@@ -230,7 +230,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/find-animation-opportunities",
-      "sha256": "3eb145857b352682640bab5c8648c2612450e53a86e763fd7593b1a6096e6e90",
+      "sha256": "a2f930752d1a33d3d6a826538a5c6de80557b3250cfe6ec82e5a83d2acb71aac",
       "license": ""
     },
     "improve-animations": {
@@ -238,7 +238,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/improve-animations",
-      "sha256": "fdfab138b3f49d4432d708ea8c3aee3d0cd24ecf981b26471ff54b375aa95885",
+      "sha256": "2912047048ef22bd80d9669d9c87906e3206bc455c6e22662edc1ed73a0e605a",
       "license": ""
     },
     "mobile-native": {
@@ -246,7 +246,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/mobile-native",
-      "sha256": "5eecddde5a31d4e7a4dd570a886f726b7ea3374690b9691b31bed37bee90a324",
+      "sha256": "b419064d3187ec947f2c9a1416422c6f63d19854f431f9eebba9f4134345215e",
       "license": ""
     },
     "pick-ui-library": {
@@ -254,7 +254,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/pick-ui-library",
-      "sha256": "ec43ad2d261a9503e7d4ec48c6e8a1da72091ad10cbfa5484448ac06fcc293dd",
+      "sha256": "96cfe2cdff5b3b8bf1588309adcdfacf885815c37a3c539fb14542985be8602a",
       "license": ""
     },
     "prototype": {
@@ -262,7 +262,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/prototype",
-      "sha256": "d11217b379a1a49ac2359d2b88c69ecdbb5bb74af73056e5966e33f92dc52f37",
+      "sha256": "d365c6c715a04acc0e67347a820388914f343fca4989e67692fd2bae8ce5971f",
       "license": ""
     },
     "review-animations": {
@@ -270,7 +270,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/review-animations",
-      "sha256": "6dd77809ff49d78f6be5ad5510c8969061efb7b61abfea2c7cd0e9e12d1d4131",
+      "sha256": "11bea49998edd9de58746898af3245c2927e73cad308b2dfd377cc4ade0a5d6d",
       "license": ""
     },
     "write-swift": {
@@ -278,7 +278,7 @@
       "ref": "main",
       "commit": "2d228630ba1446365f614a108cb8252f1feda202",
       "path": "skills/write-swift",
-      "sha256": "79d80b39a1dc49737a6c088b0a9e73218619c92ed7c9f787397c5377b9b323fb",
+      "sha256": "a9e57bdff101944e0bad5f924b6e60a34ea00cfd3dd4678bdedec7cca28e1edf",
       "license": ""
     }
   }
