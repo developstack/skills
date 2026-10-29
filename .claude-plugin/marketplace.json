@@ -1,7 +1,7 @@
 {
   "name": "developstack-skills",
   "metadata": {
-    "version": "2026-10-28"
+    "version": "2026-10-29"
   },
   "plugins": [
     {
@@ -49,6 +49,7 @@
         "./skills/mobile-native",
         "./skills/pick-ui-library",
         "./skills/prototype",
+        "./skills/remove-animations",
         "./skills/review-animations",
         "./skills/write-swift"
       ]
