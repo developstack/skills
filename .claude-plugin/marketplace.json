@@ -1,7 +1,7 @@
 {
   "name": "developstack-skills",
   "metadata": {
-    "version": "2026-11-03"
+    "version": "2026-11-05"
   },
   "plugins": [
     {
@@ -43,6 +43,7 @@
         "./skills/apple-design",
         "./skills/ask-sonner",
         "./skills/break-ui",
+        "./skills/choreograph",
         "./skills/emil-design-eng",
         "./skills/find-animation-opportunities",
         "./skills/improve-animations",
