@@ -1,7 +1,7 @@
 {
   "name": "developstack-skills",
   "metadata": {
-    "version": "2026-11-12"
+    "version": "2026-11-13"
   },
   "plugins": [
     {
@@ -48,6 +48,7 @@
         "./skills/find-animation-opportunities",
         "./skills/gestures",
         "./skills/improve-animations",
+        "./skills/learn-taste",
         "./skills/mobile-native",
         "./skills/pick-ui-library",
         "./skills/prototype",
